@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T12:48:57.533Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="JZeQV3ZO1_CqO2sJ26o4" version="20.2.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-08T12:54:53.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="DiccbjqQkv6u2bMMaSSe" version="20.2.8" type="github" pages="3">
   <diagram id="DIGLBmIxfMBTLwVZg4zG" name="ETH2流程">
     <mxGraphModel dx="2493" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,8 +39,8 @@
         <mxCell id="xFKa9jPOX3HM9e8iZ6dF-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="xFKa9jPOX3HM9e8iZ6dF-6" target="xFKa9jPOX3HM9e8iZ6dF-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-43" y="620" />
-              <mxPoint x="17" y="620" />
+              <mxPoint x="-43" y="710" />
+              <mxPoint x="17" y="710" />
               <mxPoint x="17" y="527" />
             </Array>
           </mxGeometry>
@@ -48,34 +48,39 @@
         <mxCell id="xFKa9jPOX3HM9e8iZ6dF-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="xFKa9jPOX3HM9e8iZ6dF-6" target="xFKa9jPOX3HM9e8iZ6dF-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-G4J7TmVv-xOmIMA5F3C-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=0.002;entryY=0.275;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xFKa9jPOX3HM9e8iZ6dF-6" target="-G4J7TmVv-xOmIMA5F3C-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="650" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="-G4J7TmVv-xOmIMA5F3C-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.002;entryY=0.275;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="xFKa9jPOX3HM9e8iZ6dF-6" target="-G4J7TmVv-xOmIMA5F3C-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xFKa9jPOX3HM9e8iZ6dF-6" value="node-service" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="-294" y="572" width="251" height="155" as="geometry" />
+          <mxGeometry x="-294" y="673" width="251" height="155" as="geometry" />
         </mxCell>
         <mxCell id="xFKa9jPOX3HM9e8iZ6dF-16" value="&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;根据ETH1的交易信息校验创建&lt;br&gt;验证的合法性&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;管理ETH的信标节点和执行节点&lt;br&gt;的对应关系&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;验证者的停止、合并&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;管理ETH验证者的链上信息&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="xFKa9jPOX3HM9e8iZ6dF-6">
           <mxGeometry x="-18.5" y="15" width="260" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="xFKa9jPOX3HM9e8iZ6dF-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.533;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="xFKa9jPOX3HM9e8iZ6dF-7" target="xFKa9jPOX3HM9e8iZ6dF-12">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="xFKa9jPOX3HM9e8iZ6dF-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.536;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="xFKa9jPOX3HM9e8iZ6dF-7" target="xFKa9jPOX3HM9e8iZ6dF-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="249.07000000000016" y="712.96" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="xFKa9jPOX3HM9e8iZ6dF-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="xFKa9jPOX3HM9e8iZ6dF-7" target="xFKa9jPOX3HM9e8iZ6dF-6">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="119" y="790" />
+              <mxPoint x="38" y="790" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-G4J7TmVv-xOmIMA5F3C-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.622;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="xFKa9jPOX3HM9e8iZ6dF-7" target="-G4J7TmVv-xOmIMA5F3C-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xFKa9jPOX3HM9e8iZ6dF-7" value="node-task" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="119" y="715" width="261.5" height="115" as="geometry" />
+          <mxGeometry x="119" y="781" width="261.5" height="115" as="geometry" />
         </mxCell>
         <mxCell id="xFKa9jPOX3HM9e8iZ6dF-17" value="&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;验证者的健康检查&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;定时监测已质押32ETH的pubkey，&lt;br&gt;启动验证者&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="xFKa9jPOX3HM9e8iZ6dF-7">
           <mxGeometry x="-18.5" y="25" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="xFKa9jPOX3HM9e8iZ6dF-9" value="web3-exporter" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="-285.5" y="830" width="233" height="82" as="geometry" />
+          <mxGeometry x="-285.5" y="931" width="233" height="82" as="geometry" />
         </mxCell>
         <mxCell id="xFKa9jPOX3HM9e8iZ6dF-15" value="&lt;ol&gt;&lt;li&gt;定时扫块获取ETH1的交易信息&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;ETH1交易信息的检索&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="xFKa9jPOX3HM9e8iZ6dF-9">
           <mxGeometry x="-18" y="11" width="250" height="80" as="geometry" />
@@ -110,7 +115,7 @@
             <mxPoint x="-363" y="670" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-353" y="549" />
-              <mxPoint x="-353" y="650" />
+              <mxPoint x="-353" y="751" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -130,7 +135,7 @@
           <mxGeometry x="62.5" y="25" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-G4J7TmVv-xOmIMA5F3C-1" value="web3-helm" style="swimlane;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="475.75" y="603" width="170" height="100" as="geometry" />
+          <mxGeometry x="475.75" y="704" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="-G4J7TmVv-xOmIMA5F3C-2" value="&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;节点管理&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;客户端多样性&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="-G4J7TmVv-xOmIMA5F3C-1">
           <mxGeometry y="25" width="150" height="80" as="geometry" />
