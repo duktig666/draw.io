@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T02:43:04.310Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Whb5iGdeNinG-QP43v0P" version="20.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-09T02:51:05.595Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="wPqtY8l7C736swYp8Df2" version="20.3.0" type="github" pages="3">
   <diagram id="DIGLBmIxfMBTLwVZg4zG" name="ETH2流程">
     <mxGraphModel dx="2493" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,9 +31,9 @@
           <mxGeometry y="27" width="290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="xFKa9jPOX3HM9e8iZ6dF-5" value="业务层" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="-663" y="503" width="203" height="100" as="geometry" />
+          <mxGeometry x="-663" y="503" width="203" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="xFKa9jPOX3HM9e8iZ6dF-19" value="&lt;ol&gt;&lt;li&gt;创建验证者前的业务校验&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;支付&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;节点到期管理&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="xFKa9jPOX3HM9e8iZ6dF-5" vertex="1">
+        <mxCell id="xFKa9jPOX3HM9e8iZ6dF-19" value="&lt;ol&gt;&lt;li&gt;创建验证者前的业务校验&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;支付/资产&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;节点续期&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="xFKa9jPOX3HM9e8iZ6dF-5" vertex="1">
           <mxGeometry x="-17" y="12" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="xFKa9jPOX3HM9e8iZ6dF-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="xFKa9jPOX3HM9e8iZ6dF-6" target="xFKa9jPOX3HM9e8iZ6dF-8" edge="1">
