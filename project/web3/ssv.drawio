@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T06:47:25.447Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="B_fN9pt95JwomwKM6oLG" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T08:52:19.974Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="wSYysH3k_MfU-G90v0c5" version="20.3.3" type="github">
   <diagram id="Xv7QeKLoE2u1W65RMTAT" name="ssv方案">
-    <mxGraphModel dx="1845" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1845" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
         <mxCell id="upIIC3sR76JoTG1QlNrG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="upIIC3sR76JoTG1QlNrG-7" target="upIIC3sR76JoTG1QlNrG-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="upIIC3sR76JoTG1QlNrG-7" value="node-service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="upIIC3sR76JoTG1QlNrG-7" value="业务层" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-320" y="235" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="upIIC3sR76JoTG1QlNrG-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="upIIC3sR76JoTG1QlNrG-7" target="upIIC3sR76JoTG1QlNrG-1" edge="1">
@@ -55,8 +55,8 @@
         <mxCell id="upIIC3sR76JoTG1QlNrG-17" value="生成并存储pk、sk" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="170" y="295" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="upIIC3sR76JoTG1QlNrG-19" value="operater id/adress" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-200" y="260" width="120" height="30" as="geometry" />
+        <mxCell id="upIIC3sR76JoTG1QlNrG-19" value="operater address+pk" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-205" y="260" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="upIIC3sR76JoTG1QlNrG-20" value="存储operater id/adress&lt;br&gt;获取ssv链上信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-80" y="190" width="140" height="40" as="geometry" />
